@@ -7,3 +7,12 @@ enabled = true
 
 [observability.logs]
 enabled = true
+[[routes]]
+pattern = "kaga.kaga.us.kg"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.kaga.us.kg"
+custom_domain = true
+
+[observability.logs]
+enabled = true
